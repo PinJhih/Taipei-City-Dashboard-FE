@@ -371,5 +371,6 @@ export const maplayerCommonLayout = {
 			22,
 			20,
 		],
+		"text-allow-overlap": true,
 	},
 };

@@ -4271,7 +4271,7 @@
 							["linear"],
 							["zoom"],
 							11.99,
-							0.5,
+							0.7,
 							14,
 							1
 						],
@@ -4311,7 +4311,14 @@
 				{
 					"index": "battery_station",
 					"paint": {
-						"text-color": "black"
+						"text-color": "black",
+						"text-opacity": [
+							"step",
+							["zoom"],
+							0,
+							13,
+							1
+						]
 					},
 					"property": [
 						{
