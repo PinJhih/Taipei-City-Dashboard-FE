@@ -358,4 +358,18 @@ export const maplayerCommonLayout = {
 			60,
 		],
 	},
+	"symbol-battery-station": {
+		"text-field": ["get", "count"],
+		"text-size": [
+			"interpolate",
+			["linear"],
+			["zoom"],
+			11.99,
+			10,
+			14,
+			16,
+			22,
+			20,
+		],
+	},
 };

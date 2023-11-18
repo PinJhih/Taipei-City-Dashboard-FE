@@ -58,6 +58,7 @@
 			"name": "圖資資訊",
 			"index": "map-layers",
 			"components": [
+				"301",
 				"32",
 				"15",
 				"105",
