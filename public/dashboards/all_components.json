@@ -4374,6 +4374,7 @@
 		"801": {
 			"id": 801,
 			"index": "renewable_energy_location",
+			"history_data": true,
 			"map_config": [
 				{
 					"index": "renewable_energy",
