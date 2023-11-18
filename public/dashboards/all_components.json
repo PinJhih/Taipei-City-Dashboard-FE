@@ -4096,6 +4096,35 @@
 			},
 			"name": "氣候圖",
 			"source": "不知道"
+		},
+		"200": {
+			"id": 200,
+			"index": "carbon_reduce",
+			"chart_config": {
+				"types": [
+					"ColumnChart",
+					"DistrictChart"
+				],
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"color": ["#22F28F","#22F28F"],
+				"unit": "公噸",
+				"pointsUnits": ["毫米", "度"]
+			},
+			"name": "減少碳排量",
+			"source": "不知道"
 		}
 	}
 }
