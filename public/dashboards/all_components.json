@@ -4078,6 +4078,54 @@
 			],
 			"contributors": ["tuic"]
 		},
+		"149": {
+			"id": 149,
+			"index": "Climograph",
+			"chart_config": {
+				"types": [
+					"MixLineColumnChart"
+				],
+				"categories": [
+					1,2,3,4,5,6,7,8,9,10,11,12
+				],
+				"color": [
+					"#368ecb", "#4FE632"
+				],
+				"unit": "月",
+				"pointsUnits": ["毫米", "度"]
+			},
+			"name": "氣候圖",
+			"source": "不知道"
+		},
+		"200": {
+			"id": 200,
+			"index": "carbon_reduce",
+			"chart_config": {
+				"types": [
+					"ColumnChart",
+					"DistrictChart"
+				],
+				"categories": [
+					"北投區",
+					"士林區",
+					"內湖區",
+					"南港區",
+					"松山區",
+					"信義區",
+					"中山區",
+					"大同區",
+					"中正區",
+					"萬華區",
+					"大安區",
+					"文山區"
+				],
+				"color": ["#22F28F","#22F28F"],
+				"unit": "公噸",
+				"pointsUnits": ["毫米", "度"]
+			},
+			"name": "減少碳排量",
+			"source": "不知道"
+		},
 		"801": {
 			"id": 801,
 			"index": "renewable_energy",
