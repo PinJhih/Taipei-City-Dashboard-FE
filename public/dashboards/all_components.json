@@ -4417,7 +4417,7 @@
 				}
 			],
 			"chart_config": {
-				"types": ["DonutChart", "BarChart"],
+				"types": ["DonutChart", "BarChart", "PolarChart"],
 				"color": [
 					"#5662f6",
 					"#00b500",
