@@ -1,9 +1,21 @@
 <!-- Developed by Taipei Urban Intelligence Center 2023 -->
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 
 const props = defineProps(['chart_config', 'activeChart', 'series']);
+
+const chartSeries = computed(() => {
+	let chartData = props.series;
+	chartData[0].type = "bar";
+
+	// 在之後的所有元素添加 type: "line"
+	for (let i = 1; i < chartData.length; i++) {
+		chartData[i].type = "line";
+	}
+	return chartData;
+})
+
 const chartOptions = ref({
 	chart: {
 		toolbar: {
@@ -76,7 +88,7 @@ const chartOptions = ref({
 
 <template>
 	<div v-if="activeChart === 'MixLineColumnChart'">
-		<apexchart width="100%" height="270px" type="line" :options="chartOptions" :series="series"
+		<apexchart width="100%" height="270px" type="line" :options="chartOptions" :series=chartSeries
 			@dataPointSelection="handleDataSelection"></apexchart>
 	</div>
 </template>
