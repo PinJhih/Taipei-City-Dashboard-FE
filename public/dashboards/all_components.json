@@ -4357,7 +4357,15 @@
 					"#b7eaf7",
 					"#faa2e0"
 				],
-				"unit": "顆"
+				"unit": "顆",
+				"map_filter":[
+					"prod",
+					[
+						"Gogoro Network",
+						"光捷",
+						"中油"
+					]
+				]
 			},
 			"name": "電動機車充換電站地圖",
 			"source": "產業局",
