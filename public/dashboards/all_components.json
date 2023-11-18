@@ -4253,6 +4253,110 @@
 			"tags": [],
 			"contributors": ["tuic"]
 		},
+		"210": {
+			"id": 210,
+			"index": "biodiversity",
+			"map_config": [
+				{
+					"index": "biodiversity",
+					"paint": {
+						"circle-color": [
+							"match",
+							["get", "class"],
+							"兩生綱",
+							"#81C1B2",
+							"爬蟲綱",
+							"#994585",
+							"條鰭魚綱",
+							"#698AFF",
+							"昆蟲綱",
+							"#996B36",
+							"鳥綱",
+							"#38FEFF",
+							"#fff"
+						],
+						
+					"circle-radius": [
+						"interpolate",
+						["linear"],
+						["zoom"],
+						11.99,
+						5,
+						14,
+						10,
+						22,
+						15
+					]
+					},
+					"property": [
+						{
+							"key": "class",
+							"name": "物種類別（綱）"
+						},
+						{
+							"key": "name",
+							"name": "物種名稱（學名或中文名）"
+						},
+						{
+							"key": "time",
+							"name": "調查日期（yyyymmdd）"
+						},
+						{
+							"key": "amount",
+							"name": "數量"
+						}
+					],
+					"type": "circle",
+					"title": "生物多樣性"
+				}
+			],
+			"chart_config": {
+				"types": ["MapLegend"],
+				"unit": "",
+				"map_filter": ["class", ["兩生綱", "爬蟲綱", "條鰭魚綱", "昆蟲綱", "鳥綱"]]
+			},
+			"chart_data": [
+				{
+					"type": "circle",
+					"name": "兩生綱",
+					"color": "#81C1B2"
+				},
+				{
+					"type": "circle",
+					"name": "爬蟲綱",
+					"color": "#994585"
+				},
+				{
+					"type": "circle",
+					"name": "條鰭魚綱",
+					"color": "#698AFF"
+				},
+				{
+					"type": "circle",
+					"name": "昆蟲綱",
+					"color": "#996B36"
+				},
+				{
+					"type": "circle",
+					"name": "鳥綱",
+					"color": "#38FEFF"
+				}
+			],
+			"name": "生物多樣性",
+			"source": "產業局動保處",
+			"time_from": "2021-07-19T00:00:00+08:00",
+			"time_to": "2021-11-13T00:00:00+08:00",
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "",
+			"long_desc": "",
+			"use_case": "",
+			"links": [
+				"https://data.taipei/dataset/detail?id=084c5d95-7e9f-49ad-8ab9-d741a9564189"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
 		"301": {
 			"id": 301,
 			"index": "battery_station",
