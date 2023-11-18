@@ -4077,6 +4077,25 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"149": {
+			"id": 149,
+			"index": "Climograph",
+			"chart_config": {
+				"types": [
+					"MixLineColumnChart"
+				],
+				"categories": [
+					1,2,3,4,5,6,7,8,9,10,11,12
+				],
+				"color": [
+					"#368ecb", "#4FE632"
+				],
+				"unit": "月",
+				"pointsUnits": ["毫米", "度"]
+			},
+			"name": "氣候圖",
+			"source": "不知道"
 		}
 	}
 }
