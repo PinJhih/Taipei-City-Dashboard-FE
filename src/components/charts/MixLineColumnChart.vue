@@ -25,6 +25,7 @@ const chartOptions = ref({
 			},
 		},
 	},
+	colors: props.chart_config.color,
 	grid: {
 		show: true,  
 		row: {
@@ -42,7 +43,6 @@ const chartOptions = ref({
 		strokeWidth: 0,
 	},
 	stroke: {
-		colors: props.chart_config.color,
 		width: [0, 2],
 	},
 	tooltip: {

@@ -4218,6 +4218,35 @@
 			],
 			"contributors": ["tuic"]
 		},
+		"203": {
+			"id": 203,
+			"index": "weather_status",
+			"chart_config": {
+				"types": [
+					"MixLineColumnChart"
+				],
+				"categories": [
+					1,2,3,4,5,6,7,8,9,10,11,12
+				],
+				"color": [
+					"#FAC400", "#01BCFA"
+				],
+				"unit": "月",
+				"pointsUnits": ["小時", "日"]
+			},
+			"name": "總日照時數與降雨日數占比",
+			"source": "主計處",
+			"time_from": "2022-01-01T00:00:00+08:00",
+			"time_to": null,
+			"short_desc": "臺北總日照時數與降雨日數占比",
+			"long_desc": "詳細描述",
+			"use_case": "使用案例",
+			"tags": [],
+			"links": [
+				"https://data.taipei/dataset/detail?id=c4b18a6f-9424-4838-bab8-dd11b74a049e"
+			],
+			"contributors": ["tuic"]
+		},
 		"801": {
 			"id": 801,
 			"index": "renewable_energy_location",
