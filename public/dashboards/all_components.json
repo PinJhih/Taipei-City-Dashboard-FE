@@ -4212,7 +4212,6 @@
 			],
 			"contributors": ["tuic"]
 		},
-		
 		"204": {
 			"id": 204,
 			"index": "wastewater_amount",
@@ -4590,6 +4589,42 @@
 			"links": [
 				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd",
 				"https://data.taipei/dataset/detail?id=26e04fb7-ea13-44d1-8a2e-8598cca6fd9c"
+			],
+			"contributors": ["tuic"]
+		},
+		"805": {
+			"id": 805, 
+			"index": "reservoir_analysis",
+			"history_data": true, 
+			"map_config": null,
+			"chart_config": {
+				"types": ["RadarChart"],
+				"color": [
+					"#E6DF44",
+					"#F4633C",
+					"#5662f6",
+					"#fff"
+				],
+				"unit": "千立方公尺",
+				"categories": [
+					"進水量",
+					"放水量",
+					"利用量",
+					"用水量",
+					"發電水量"
+				]
+			},
+			"name": "翡翠水庫年度水情分析",
+			"source": "主計處",
+			"time_from": "1987-01-01T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "臺北翡翠水庫水源利用情形時間數列統計資料",
+			"long_desc": "詳細描述",
+			"use_case": "使用案例",
+			"links": [
+				"https://data.taipei/dataset/detail?id=897f2fbf-53c7-4662-a896-3ed2a3559cbf"
 			],
 			"contributors": ["tuic"]
 		}
