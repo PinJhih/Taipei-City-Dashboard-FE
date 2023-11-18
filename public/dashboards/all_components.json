@@ -4696,6 +4696,32 @@
 			],
 			"contributors": ["tuic"]
 		},
+		"803": {
+			"id": 803, 
+			"index": "Energy_saving_guidance",
+			"history_data": false, 
+			"map_config": null,
+			"chart_config": {
+				"types": ["TimelineMultiIndex", "TimelineMultiIndexStacked"],
+				"color": [
+					"#FD5696",
+					"#00A9E0"
+				],
+				"unit": null,
+				"pointsUnits": ["萬元", "公噸"]
+			},
+			"name": "節電度數輔導",
+			"source": "產業局",
+			"time_from": null,
+			"time_to": null,
+			"short_desc": "臺北市節能輔導情形相關資訊。",
+			"long_desc": "詳細描述",
+			"use_case": "使用案例",
+			"links": [
+				"https://data.taipei/dataset/detail?id=687f5170-06e9-46be-80bc-fcae87bcaeba"
+			],
+			"contributors": ["tuic"]
+		},
 		"805": {
 			"id": 805, 
 			"index": "reservoir_analysis",

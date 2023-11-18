@@ -35,6 +35,9 @@ import MapLegend from "./components/charts/MapLegend.vue";
 import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 import PolarChart from "./components/charts/PolarChart.vue";
+import TimelineMultiIndex from "./components/charts/TimelineMultiIndex.vue";
+import TimelineMultiIndexStacked from "./components/charts/TimelineMultiIndexStacked.vue";
+
 
 import CompareColumnsChart from "./components/charts/CompareColumnsChart.vue";
 import MixLineColumnChart from "./components/charts/MixLineColumnChart.vue";
@@ -64,6 +67,8 @@ app.component("MapLegend", MapLegend);
 app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 app.component("PolarChart", PolarChart);
+app.component("TimelineMultiIndex", TimelineMultiIndex);
+app.component("TimelineMultiIndexStacked", TimelineMultiIndexStacked);
 
 app.component("CompareColumnsChart", CompareColumnsChart);
 app.component("MixLineColumnChart", MixLineColumnChart);
