@@ -4259,13 +4259,13 @@
 							"match",
 							["get", "gen_cat"],
 							"水力發電",
-							"#9EB7E5",
+							"#5662f6",
 							"沼氣發電",
-							"#DBD4B6",
+							"#00b500",
 							"焚化發電",
-							"#EFF2EF",
+							"#ff0000",
 							"光電發電",
-							"#E36397",
+							"#ffcf49",
 							"white"
 						]
 					},
@@ -4309,22 +4309,22 @@
 			"chart_data": [
 				{
 					"type": "circle",
-					"color": "#9EB7E5",
+					"color": "#5662f6",
 					"name": "水力發電"
 				},
 				{
 					"type": "circle",
-					"color": "#DBD4B6",
+					"color": "#00b500",
 					"name": "沼氣發電"
 				},
 				{
 					"type": "circle",
-					"color": "#EFF2EF",
+					"color": "#ff0000",
 					"name": "焚化發電"
 				},
 				{
 					"type": "circle",
-					"color": "#E36397",
+					"color": "#ffcf49",
 					"name": "光電發電"
 				}
 			],
