@@ -3587,7 +3587,7 @@
 					"大安區",
 					"文山區"
 				],
-				"types": ["ColumnChart", "RadarChart", "DistrictChart", "MutilpleColumnChart"],
+				"types": ["ColumnChart", "RadarChart", "DistrictChart"],
 				"color": ["#E6DF44", "#F4633C", "#D63940", "#9C2A4B"],
 				"unit": "點",
 				"map_filter": [
@@ -4126,11 +4126,11 @@
 				"color": ["#00B329","#00B329"],
 				"unit": "公噸"
 			},
-			"name": "各區減少碳排量",
+			"name": "光電發電減少碳排量",
 			"source": "產業局",
 			"time_from": "2021-01-01T00:00:00+08:00",
 			"time_to": null,
-			"short_desc": "臺北市各區減少碳排量",
+			"short_desc": "臺北市各區光電發電減少碳排量",
 			"long_desc": "詳細描述",
 			"use_case": "使用案例",
 			"tags": [],
@@ -4214,7 +4214,7 @@
 			"use_case": "使用案例",
 			"tags": [],
 			"links": [
-				"https://data.taipei/dataset/detail?id=c9025a91-7b14-4070-83df-fd7e99e0fc1d"
+				"https://data.taipei/dataset/detail?id=9bfb5424-1996-461a-b19b-f75101e2f459"
 			],
 			"contributors": ["tuic"]
 		},
