@@ -4095,7 +4095,7 @@
 			},
 			"name": "台北市再生能源",
 			"source": "主計處",
-			"time_from": "2011-01-01T00:00:00+08:00",
+			"time_from": "2022-01-01T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": 1,
 			"update_freq_unit": "year",
