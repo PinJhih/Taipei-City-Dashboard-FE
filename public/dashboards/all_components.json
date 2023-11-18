@@ -4290,7 +4290,7 @@
 							"#b7eaf7",
 							"中油",
 							"#faa2e0",
-							"black"
+							"white"
 						]
 					},
 					"property": [
@@ -4347,7 +4347,7 @@
 					"type": "symbol",
 					"size": null,
 					"icon": "battery-station",
-					"title": "電動車充換電站地圖"
+					"title": "電動機車充換電站地圖"
 				}
 			],
 			"chart_config": {
@@ -4358,6 +4358,137 @@
 					"#faa2e0"
 				],
 				"unit": "顆"
+			},
+			"name": "電動機車充換電站地圖",
+			"source": "產業局",
+			"time_from": null,
+			"time_to": null,
+			"update_freq": null,
+			"update_freq_unit": null,
+			"short_desc": "臺北市電動機車充換電站地圖",
+			"long_desc": "詳細描述",
+			"use_case": "使用案例",
+			"links": [
+				"https://data.taipei/dataset/detail?id=668313d7-bcfc-4c90-b769-e398b08a1b2d"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
+		"302": {
+			"id": 302,
+			"index": "charge_station",
+			"map_config": [
+				{
+					"index": "charge_station",
+					"paint": {
+						"circle-radius": [
+							"interpolate",
+							["linear"],
+							["zoom"],
+							11.99,
+							10,
+							14,
+							20,
+							22,
+							30
+						],
+						"circle-opacity": [
+							"interpolate",
+							["linear"],
+							["zoom"],
+							11.99,
+							0.7,
+							14,
+							1
+						],
+						"circle-color": "#83E9B4"
+					},
+					"property": [
+						{
+							"key": "prod",
+							"name": "廠商"
+						},
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						},
+						{
+							"key": "dist",
+							"name": "行政區"
+						},
+						{
+							"key": "count",
+							"name": "電池數量"
+						}
+					],
+					"type": "circle",
+					"title": "電動車充換電站地圖"
+				},
+				{
+					"index": "charge_station",
+					"paint": {
+						"text-color": "black",
+						"text-opacity": [
+							"step",
+							["zoom"],
+							0,
+							13,
+							1
+						]
+					},
+					"property": [
+						{
+							"key": "prod",
+							"name": "廠商"
+						},
+						{
+							"key": "name",
+							"name": "名稱"
+						},
+						{
+							"key": "addr",
+							"name": "地址"
+						},
+						{
+							"key": "dist",
+							"name": "行政區"
+						},
+						{
+							"key": "count",
+							"name": "電池數量"
+						}
+					],
+					"type": "symbol",
+					"size": null,
+					"icon": "battery-station",
+					"title": "電動車充換電站地圖"
+				}
+			],
+			"chart_config": {
+				"color": ["#2f9ca1"],
+				"types": ["DistrictChart"],
+				"unit": "個",
+				"map_filter": [
+					"dist",
+					[
+						"北投",
+						"士林",
+						"內湖",
+						"南港",
+						"松山",
+						"信義",
+						"中山",
+						"大同",
+						"中正",
+						"萬華",
+						"大安",
+						"文山"
+					]
+				]
 			},
 			"name": "電動車充換電站地圖",
 			"source": "產業局",
