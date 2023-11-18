@@ -4351,25 +4351,14 @@
 				}
 			],
 			"chart_config": {
-				"types": ["MapLegend"]
+				"types": [ "DonutChart"],
+				"color": [
+					"#bff7b0",
+					"#b7eaf7",
+					"#faa2e0"
+				],
+				"unit": "顆"
 			},
-			"chart_data": [
-				{
-					"type": "circle",
-					"color": "#bff7b0",
-					"name": "Gogoro Network"
-				},
-				{
-					"type": "circle",
-					"color": "#b7eaf7",
-					"name": "光捷"
-				},
-				{
-					"type": "circle",
-					"color": "#EFF2EF",
-					"name": "中油"
-				}
-			],
 			"name": "電動車充換電站地圖",
 			"source": "產業局",
 			"time_from": null,
