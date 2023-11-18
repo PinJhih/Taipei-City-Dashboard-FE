@@ -4179,6 +4179,7 @@
 		"202": {
 			"id": 202, 
 			"index": "power_usage_by_area",
+			"history_data": true, 
 			"map_config": null,
 			"chart_config": {
 				"types": [
