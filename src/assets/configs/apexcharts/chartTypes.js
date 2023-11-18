@@ -13,6 +13,7 @@ export const chartTypes = {
 	HeatmapChart: "熱力圖",
 	PolarChart: "披薩圖",
 	
+	CompareColumnsChart: "長條比較圖",
 	MixLineColumnChart: "長條混和圖",
 	MutilpleColumnChart: "長條圖(多欄)"
 };

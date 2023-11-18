@@ -4248,6 +4248,48 @@
 			],
 			"contributors": ["tuic"]
 		},
+		
+		"204": {
+			"id": 204,
+			"index": "wastewater_amount",
+			"map_config": null,
+			"chart_config": {
+				"types": ["CompareColumnsChart"],
+				"color": ["#0059FF", "#00EBA0"],
+				"unit": "BOD5公噸/日",
+				"categories": [
+					"100年",
+					"101年",
+					"102年",
+					"103年",
+					"104年",
+					"105年",
+					"106年",
+					"107年",
+					"108年",
+					"109年",
+					"110年",
+					"111年"],
+				"groups": [
+					"產生量",
+					"排放量"
+				]
+			},
+			"name": "廢污水產生量與排放量",
+			"source": "環境部統計處",
+			"time_from": "2011-01-01T00:00:00+08:00",
+			"time_to": "2022-01-01T00:00:00+08:00",
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "",
+			"long_desc": "",
+			"use_case": "",
+			"links": [
+				"https://data.moenv.gov.tw/dataset/detail/STAT_P_119"
+			],
+			"tags": [],
+			"contributors": ["tuic"]
+		},
 		"301": {
 			"id": 301,
 			"index": "battery_station",
