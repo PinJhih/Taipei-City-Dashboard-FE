@@ -88,7 +88,6 @@ const chartOptions = ref({
 
 <template>
 	<div v-if="activeChart === 'MixLineColumnChart'">
-		<apexchart width="100%" height="270px" type="line" :options="chartOptions" :series=chartSeries
-			@dataPointSelection="handleDataSelection"></apexchart>
+		<apexchart width="100%" height="270px" type="line" :options="chartOptions" :series=chartSeries></apexchart>
 	</div>
 </template>

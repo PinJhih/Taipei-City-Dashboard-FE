@@ -4281,28 +4281,6 @@
 				],
 				"unit": "千度"
 			},
-			"chart_data": [
-				{
-					"type": "circle",
-					"color": "#5662f6",
-					"name": "水力發電"
-				},
-				{
-					"type": "circle",
-					"color": "#00b500",
-					"name": "沼氣發電"
-				},
-				{
-					"type": "circle",
-					"color": "#ff0000",
-					"name": "焚化發電"
-				},
-				{
-					"type": "circle",
-					"color": "#ffcf49",
-					"name": "光電發電"
-				}
-			],
 			"name": "台北市再生能源",
 			"source": "主計處",
 			"time_from": "2022-01-01T00:00:00+08:00",
