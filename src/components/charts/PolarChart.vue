@@ -50,7 +50,7 @@ const chartOptions = ref({
 		foreColor: '#fff'
 	},
 	fill: {
-		opacity: 0.5
+		opacity: 0.8
 	},
 	colors: props.series.length >= steps.value ? [...props.chart_config.color, '#848c94'] : props.chart_config.color,
 	dataLabels: {
@@ -71,9 +71,10 @@ const chartOptions = ref({
 		}
 	},
 	stroke: {
-		colors: ['#282a2c'],
+		colors: ['#fff'],
 		show: true,
-		width: 3,
+		width: 2,
+		opacity: 0.8
 	},
 	tooltip: {
 		followCursor: true,
@@ -108,10 +109,6 @@ function handleDataSelection(e, chartContext, config) {
 		<apexchart width="100%" type="polarArea" :options="chartOptions" :series="parsedSeries"
 			@dataPointSelection="handleDataSelection">
 		</apexchart>
-		<div class="donutchart-title">
-			<h5>總合</h5>
-			<h6>{{ sum }}</h6>
-		</div>
 	</div>
 </template>
 
