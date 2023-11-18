@@ -4077,6 +4077,36 @@
 				"https://github.com/tpe-doit/YouBike-Optimization"
 			],
 			"contributors": ["tuic"]
+		},
+		"152": {
+			"id": 152,
+			"index": "renewable_energy",
+			"map_config": null,
+			"chart_config": {
+				"types": ["DonutChart", "BarChart"],
+				"color": [
+					"#fff495",
+					"#ddb11f",
+					"#e3863a",
+					"#c2651c",
+					"#a65818"
+				],
+				"unit": "千度"
+			},
+			"name": "台北市再生能源",
+			"source": "主計處",
+			"time_from": "2011-01-01T00:00:00+08:00",
+			"time_to": null,
+			"update_freq": 1,
+			"update_freq_unit": "year",
+			"short_desc": "臺北市再生能源時間數列統計資料",
+			"long_desc": "詳細描述",
+			"use_case": "使用案例",
+			"tags": [],
+			"links": [
+				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd"
+			],
+			"contributors": ["tuic"]
 		}
 	}
 }
