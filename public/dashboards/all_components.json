@@ -4454,7 +4454,8 @@
 			"use_case": "使用案例",
 			"tags": [],
 			"links": [
-				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd"
+				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd",
+				"https://data.taipei/dataset/detail?id=26e04fb7-ea13-44d1-8a2e-8598cca6fd9c"
 			],
 			"contributors": ["tuic"]
 		}
