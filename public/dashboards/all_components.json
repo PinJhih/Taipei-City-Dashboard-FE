@@ -4097,9 +4097,10 @@
 			"name": "氣候圖",
 			"source": "不知道"
 		},
-		"200": {
-			"id": 200,
-			"index": "carbon_reduce",
+		"201": {
+			"id": 201, 
+			"index": "solar_power_generation",
+			"history_data": true, 
 			"map_config": null,
 			"chart_config": {
 				"types": [
@@ -4122,43 +4123,6 @@
 						"大安區",
 						"文山區"
 					]
-				],
-				"color": ["#00B329","#00B329"],
-				"unit": "公噸"
-			},
-			"name": "光電發電減少碳排量",
-			"source": "產業局",
-			"time_from": "2021-01-01T00:00:00+08:00",
-			"time_to": null,
-			"short_desc": "臺北市各區光電發電減少碳排量",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
-			"tags": [],
-			"links": [
-				"https://data.taipei/dataset/detail?id=c9025a91-7b14-4070-83df-fd7e99e0fc1d"
-			],
-			"contributors": ["tuic"]
-		},
-		"201": {
-			"id": 201, 
-			"index": "solar_power_generation",
-			"history_data": true, 
-			"map_config": null,
-			"chart_config": {
-				"types": ["ColumnChart"],
-				"categories": [
-					"北投區",
-					"士林區",
-					"內湖區",
-					"南港區",
-					"松山區",
-					"信義區",
-					"中山區",
-					"大同區",
-					"中正區",
-					"萬華區",
-					"大安區",
-					"文山區"
 				],
 				"color": ["#EFF222"],
 				"unit": "千度"
