@@ -36,6 +36,9 @@ import MetroChart from "./components/charts/MetroChart.vue";
 import HeatmapChart from "./components/charts/HeatmapChart.vue";
 
 import MixLineColumnChart from "./components/charts/MixLineColumnChart.vue";
+import MutilpleColumnChart from "./components/charts/MutilpleColumnChart.vue";
+
+
 
 const app = createApp(App);
 
@@ -60,5 +63,7 @@ app.component("MetroChart", MetroChart);
 app.component("HeatmapChart", HeatmapChart);
 
 app.component("MixLineColumnChart", MixLineColumnChart);
+app.component("MutilpleColumnChart", MutilpleColumnChart);
+
 
 app.mount("#app");

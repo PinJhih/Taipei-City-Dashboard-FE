@@ -13,4 +13,5 @@ export const chartTypes = {
 	HeatmapChart: "熱力圖",
 	
 	MixLineColumnChart: "長條混和圖",
+	MutilpleColumnChart: "長條圖(多欄)"
 };

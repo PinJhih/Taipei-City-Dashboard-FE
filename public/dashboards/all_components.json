@@ -3587,7 +3587,7 @@
 					"大安區",
 					"文山區"
 				],
-				"types": ["ColumnChart", "RadarChart", "DistrictChart"],
+				"types": ["ColumnChart", "RadarChart", "DistrictChart", "MutilpleColumnChart"],
 				"color": ["#E6DF44", "#F4633C", "#D63940", "#9C2A4B"],
 				"unit": "點",
 				"map_filter": [
