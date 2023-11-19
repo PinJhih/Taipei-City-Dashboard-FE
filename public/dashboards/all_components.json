@@ -4197,7 +4197,7 @@
 					"#FAC400", "#01BCFA"
 				],
 				"unit": "月",
-				"pointsUnits": ["小時", "日"]
+				"pointsUnits": ["小時", "%"]
 			},
 			"name": "總日照時數與降雨日數占比",
 			"source": "主計處",
