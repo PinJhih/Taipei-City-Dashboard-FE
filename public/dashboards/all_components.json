@@ -4708,9 +4708,9 @@
 					"#00A9E0"
 				],
 				"unit": null,
-				"pointsUnits": ["萬元", "公噸"]
+				"pointsUnits": ["件", "度"]
 			},
-			"name": "節電度數輔導",
+			"name": "輔導與節電度數比較",
 			"source": "產業局",
 			"time_from": null,
 			"time_to": null,
