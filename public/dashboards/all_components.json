@@ -4714,8 +4714,8 @@
 			"time_from": null,
 			"time_to": null,
 			"short_desc": "臺北市節能輔導情形相關資訊。",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"long_desc": "列出臺北市各年度之輔導家數及節電度數。",
+			"use_case": "可直觀看出效率好及效率差的特定年度，追蹤原因時方便篩選。",
 			"links": [
 				"https://data.taipei/dataset/detail?id=687f5170-06e9-46be-80bc-fcae87bcaeba"
 			],
