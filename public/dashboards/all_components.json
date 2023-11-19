@@ -4130,10 +4130,10 @@
 			"name": "光電發電量",
 			"source": "產業局",
 			"time_from": "2021-01-01T00:00:00+08:00",
-			"time_to": null,
+			"time_to": "2021-12-01T00:00:00+08:00",
 			"short_desc": "臺北市光電發電量時間數列統計資料",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"long_desc": "顯示去年度臺北市光電總發電量，歷史紀錄則是依據臺北市總減碳量與光電總發電量得出比值，再根據每個月減碳量算出每月光電發電量。",
+			"use_case": "本組件可讓您掌握去年度各個行政區光電總發電量。搭配每區用電量可規劃節電政策。",
 			"tags": [],
 			"links": [
 				"https://data.taipei/dataset/detail?id=c9025a91-7b14-4070-83df-fd7e99e0fc1d"
@@ -4172,11 +4172,11 @@
 			},
 			"name": "各區用電量",
 			"source": "產業局",
-			"time_from": "2021-01-01T00:00:00+08:00",
-			"time_to": null,
+			"time_from": "1968-01-01T00:00:00+08:00",
+			"time_to": "2022-01-01T00:00:00+08:00",
 			"short_desc": "臺北市各區用電量",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"long_desc": "臺北市去年度各區總用電量，單位為百萬度。歷史資料則為全市加總之用電量。",
+			"use_case": "本組件可讓您掌握去年度各個行政區用電量。搭配每區光電發電量可規劃節電政策。",
 			"tags": [],
 			"links": [
 				"https://data.taipei/dataset/detail?id=9bfb5424-1996-461a-b19b-f75101e2f459"
@@ -4242,11 +4242,10 @@
 			"source": "環境部統計處",
 			"time_from": "2011-01-01T00:00:00+08:00",
 			"time_to": "2022-01-01T00:00:00+08:00",
+			"long_desc": "臺北市每年度廢汙水產生與排放量，單位為BOD5公噸/日。分為市鎮、工業、農業等類別",
+			"use_case": "本組件可讓您掌握不同類別的產生量與排放量，方便進行初步的追蹤。",
 			"update_freq": 1,
 			"update_freq_unit": "year",
-			"short_desc": "",
-			"long_desc": "",
-			"use_case": "",
 			"links": [
 				"https://data.moenv.gov.tw/dataset/detail/STAT_P_119"
 			],
