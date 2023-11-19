@@ -39,9 +39,6 @@ const parsedLabels = computed(() => {
 	output.push('其他');
 	return output;
 });
-const sum = computed(() => {
-	return Math.round(parsedSeries.value.reduce((a, b) => a + b) * 100) / 100;
-});
 
 // chartOptions needs to be in the bottom since it uses computed data
 const chartOptions = ref({

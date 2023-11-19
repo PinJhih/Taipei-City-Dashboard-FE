@@ -76,10 +76,6 @@ const chartOptions = ref({
 	},
 	yaxis: [{}, {opposite: true}]
 });
-
-function parseTime(time) {
-	return time.replace("T", " ").replace("+08:00", " ");
-}
 </script>
 
 <template>
