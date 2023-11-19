@@ -4199,13 +4199,13 @@
 				"unit": "月",
 				"pointsUnits": ["小時", "%"]
 			},
-			"name": "總日照時數與降雨日數占比",
+			"name": "總日照時數與無降雨日數占比",
 			"source": "主計處",
 			"time_from": "2022-01-01T00:00:00+08:00",
 			"time_to": null,
-			"short_desc": "臺北總日照時數與降雨日數占比",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"short_desc": "臺北總日照時數與無降雨日數占比",
+			"long_desc": "每月的總日照時數與當月無降雨日數之占比",
+			"use_case": "可以使用此數據做為光電發電相關政策決策時的參考依據，根據每個月的天氣特性決定相關政策",
 			"tags": [],
 			"links": [
 				"https://data.taipei/dataset/detail?id=c4b18a6f-9424-4838-bab8-dd11b74a049e"
@@ -4470,15 +4470,15 @@
 					]
 				]
 			},
-			"name": "臺北市電動機車換電站地圖",
+			"name": "電動機車換電站與電池統計",
 			"source": "產業局",
 			"time_from": "2023-04-11T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "臺北市電動機車換電站地圖",
-			"long_desc": "詳細描述",
-			"use_case": "查詢換電站地點及電池數量",
+			"short_desc": "臺北市電動機車換電站與電池統計",
+			"long_desc": "統計臺北市各廠商之電動機車換電站數量、位置與電池數量",
+			"use_case": "可用於分析各廠商之市佔率，以及換電站設站分布與數量",
 			"links": [
 				"https://data.taipei/dataset/detail?id=668313d7-bcfc-4c90-b769-e398b08a1b2d"
 			],
@@ -4601,15 +4601,15 @@
 					]
 				]
 			},
-			"name": "臺北市電動車充電站地圖",
+			"name": "電動車充電站統計",
 			"source": "產業局",
 			"time_from": "2023-04-11T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "臺北市電動車充電站地圖",
-			"long_desc": "詳細描述",
-			"use_case": "查詢充電站地點及充電柱數量",
+			"short_desc": "臺北市電動車充電站統計",
+			"long_desc": "臺北市內各廠商之電動車充電停車位統計，以及位置資訊",
+			"use_case": "可用於分析各廠商之市佔率，以及充電站停車位分布與數量",
 			"links": [
 				"https://data.taipei/dataset/detail?id=668313d7-bcfc-4c90-b769-e398b08a1b2d"
 			],
