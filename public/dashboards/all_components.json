@@ -4415,7 +4415,7 @@
 						}
 					],
 					"type": "circle",
-					"title": "電動車充換電站地圖"
+					"title": "臺北市電動機車換電站地圖"
 				},
 				{
 					"index": "battery_station",
@@ -4450,7 +4450,7 @@
 					"type": "symbol",
 					"size": null,
 					"icon": "battery-station",
-					"title": "電動機車充換電站地圖"
+					"title": "臺北市電動機車換電站地圖"
 				}
 			],
 			"chart_config": {
@@ -4470,15 +4470,15 @@
 					]
 				]
 			},
-			"name": "電動機車充換電站地圖",
+			"name": "臺北市電動機車換電站地圖",
 			"source": "產業局",
-			"time_from": null,
+			"time_from": "2023-04-11T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "臺北市電動機車充換電站地圖",
+			"short_desc": "臺北市電動機車換電站地圖",
 			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"use_case": "查詢換電站地點及電池數量",
 			"links": [
 				"https://data.taipei/dataset/detail?id=668313d7-bcfc-4c90-b769-e398b08a1b2d"
 			],
@@ -4533,11 +4533,11 @@
 						},
 						{
 							"key": "count",
-							"name": "電池數量"
+							"name": "充電柱數量"
 						}
 					],
 					"type": "circle",
-					"title": "電動車充換電站地圖"
+					"title": "臺北市電動車充電站地圖"
 				},
 				{
 					"index": "charge_station",
@@ -4570,13 +4570,13 @@
 						},
 						{
 							"key": "count",
-							"name": "電池數量"
+							"name": "充電柱數量"
 						}
 					],
 					"type": "symbol",
 					"size": null,
 					"icon": "battery-station",
-					"title": "電動車充換電站地圖"
+					"title": "臺北市電動車充電站地圖"
 				}
 			],
 			"chart_config": {
@@ -4601,15 +4601,15 @@
 					]
 				]
 			},
-			"name": "電動車充換電站地圖",
+			"name": "臺北市電動車充電站地圖",
 			"source": "產業局",
-			"time_from": null,
+			"time_from": "2023-04-11T00:00:00+08:00",
 			"time_to": null,
 			"update_freq": null,
 			"update_freq_unit": null,
-			"short_desc": "臺北市電動車充換電站地圖",
+			"short_desc": "臺北市電動車充電站地圖",
 			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"use_case": "查詢充電站地點及充電柱數量",
 			"links": [
 				"https://data.taipei/dataset/detail?id=668313d7-bcfc-4c90-b769-e398b08a1b2d"
 			],
