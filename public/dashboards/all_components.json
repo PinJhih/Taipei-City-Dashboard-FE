@@ -4686,8 +4686,8 @@
 			"update_freq": 1,
 			"update_freq_unit": "year",
 			"short_desc": "臺北市再生能源時間數列統計資料",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"long_desc": "臺北市再生能源發電種類、其發電量和所佔比例，以及過去發電量的歷史資料",
+			"use_case": "可用於分析不同再生能源的成效，幫助相關計畫的決策",
 			"tags": [],
 			"links": [
 				"https://data.taipei/dataset/detail?id=2382fa35-52a2-4137-8b09-9f7f1c3a14cd",
@@ -4750,8 +4750,8 @@
 			"update_freq": 1,
 			"update_freq_unit": "year",
 			"short_desc": "臺北翡翠水庫水源利用情形時間數列統計資料",
-			"long_desc": "詳細描述",
-			"use_case": "使用案例",
+			"long_desc": "臺北翡翠水庫水源利用情形之總量統計，以及歷年時間序列統計資料",
+			"use_case": "可透過此組件了解翡翠水庫水資源使用情形，以及過去的水源資源變化",
 			"links": [
 				"https://data.taipei/dataset/detail?id=897f2fbf-53c7-4662-a896-3ed2a3559cbf"
 			],
